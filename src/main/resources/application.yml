@@ -1,0 +1,9 @@
+server:
+  port: 8090
+  servlet:
+    context-path: /myideaDemo
+spring:
+  thymeleaf:
+    encoding: UTF-8
+    prefix: classpath:/templates/
+    suffix: .html
